@@ -1,0 +1,105 @@
+.r-wrapper{
+    height: 105vh;
+    background-color: var(--purple);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    padding: 3%;
+    
+}
+
+.r-wrapper :nth-child(2){
+    width: 110px;
+    border-color:var(--red) ;
+    border-width: 2px;
+    font-family: 'Poppins', sans-serif;
+}
+.r-wrapper :nth-child(3){
+    font-family: 'Poppins', sans-serif;
+
+
+}
+.r-wrapper :nth-child(4){
+    width: 400px;
+    height: 200px;
+    padding: 10%;
+}
+.r-wrapper :nth-child(5){
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    padding: 15%;
+   
+}
+.r-wrapper :nth-child(6){
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    padding: 25%;
+   
+}
+.r-wrapper :nth-child(7){
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    padding: 22%;
+    padding-left: 10%;
+   
+}
+.r-wrapper :nth-child(8){
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    padding: 22%;
+    padding-right: 10%;
+   
+}
+.r-wrapper :nth-child(9){
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    padding: 20%;
+    padding-left: 35%;
+   
+}
+.r-wrapper :nth-child(10){
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    padding: 30%;
+    padding-left: 10%;
+   
+}
+.r-wrapper :nth-child(11){
+    display: flex;
+
+    width: 500px;
+    position: absolute;
+    right: 10%;
+    top:50%;
+    font-family: 'Poppins', sans-serif;
+
+}
+.arrows2{
+    display: flex;
+    position: relative;
+    justify-content: flex-end;
+    gap: 10rem;
+}
+.arrows2 :nth-child(1){
+    height: 50px;
+    width:60px;
+    background-color: var(--red);
+    border-radius: 50%;
+    cursor: pointer;
+}
+.arrows2 :nth-child(2){
+    height: 50px;
+    width:70px;
+    background-color: var(--red);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+

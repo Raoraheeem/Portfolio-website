@@ -1,0 +1,49 @@
+.wrapper-h{
+    height:10vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-h>span{
+    font-family: 'Freehand', cursive;
+font-size: 35px;
+color: #FFFFFF;
+cursor: pointer;
+}
+.right-h ul{
+    display: flex;
+    gap:2rem;
+}
+
+.right-h ul li{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    color: white;
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    font-weight: medium;
+   
+    
+}
+.button-g{
+    padding-top: 0;
+   
+}
+.button-g:hover{
+
+    cursor: pointer;
+    background-color: var(--red);
+    border: 1px solid red;
+
+}
+.right-h ul li:hover{
+    background-color: var(--red);
+    cursor:pointer;
+    width:70px;
+    height: 60px;
+  
+    
+  
+   
+}

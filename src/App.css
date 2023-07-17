@@ -1,0 +1,23 @@
+:root{
+    --red:#FF0513;
+    --blue:#0E0C38;
+    --purple:#040221;
+}
+.App{
+    padding:0;
+    margin: 0;
+    color:#FFFFFF;
+    overflow: hidden;
+}
+.button{
+    border-radius:20px;
+    border:1px solid #FFFFFF;
+    width:130px;
+    height: 40px;
+    background-color: var(--blue);
+    color:#FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    font-weight: medium;
+
+
+}
